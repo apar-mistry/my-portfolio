@@ -16,35 +16,22 @@ const Hero = () => {
 
   return (
     <Grid item xs={12}>
-      <Paper>
-        <Avatar sx={{ width: 100, height: 100, marginBottom: '1rem' }} alt="Apar Mistry" src="/1602563417439-2.jpeg" />
-        <Typography variant="h2" component="h1" sx={{ marginBottom: '1rem', color: '#fff' }}>
-          Apar Mistry
-        </Typography>
-        <Typography variant="h5" sx={{ marginBottom: '2rem', color: '#b0bec5' }}>
-          {text}
-          <Cursor />
-        </Typography>
-        <Box sx={{ display: 'flex', justifyContent: 'center', gap: '1rem' }}>
-          <Button
-            variant="outlined"
-            color="primary"
-            startIcon={<LinkedInIcon />}
-            href="https://www.linkedin.com/in/apar-mistry/"
-            target="_blank"
-          >
-            LinkedIn
-          </Button>
-          <Button
-            variant="outlined"
-            color="primary"
-            startIcon={<GitHubIcon />}
-            href="https://github.com/yourprofile"
-            target="_blank"
-          >
-            GitHub
-          </Button>
-        </Box>
+      <Paper sx={{ padding: 2 }}>
+        <Grid container alignItems="center" spacing={2}>
+          <Grid item>
+            <Avatar sx={{ width: 100, height: 100 }} alt="Apar Mistry" src="/1602563417439-2.jpeg" />
+          </Grid>
+          <Grid item>
+            <Typography variant="h2" component="h1" sx={{ color: '#fff' }}>
+              Apar Mistry
+            </Typography>
+            <Typography variant="h5" sx={{ color: '#b0bec5' }}>
+              {text}
+              <Cursor />
+            </Typography>
+          </Grid>
+        </Grid>
+
       </Paper>
     </Grid>
   );

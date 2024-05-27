@@ -29,7 +29,7 @@
   position: fixed;
   top: 0;
   width: 100%;
-  background: rgba(119, 141, 169, 0.7); /* Match card background color */
+  background: rgba(119, 141, 169, 0.7) !important; /* Match card background color */
   color: #E0E1DD; /* Text color */
   padding: 10px 20px;
   display: flex;
