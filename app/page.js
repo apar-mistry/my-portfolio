@@ -12,13 +12,13 @@ import CustomThemeProvider from './theme';
 import Navbar from './components/Navbar';
 import { Grid } from '@mui/material';
 import BokehBackground from './components/BokehBackground';
-
+import './animations.css';
 
 const HomePage = () => (
   <CustomThemeProvider>
     <Navbar />
     <BokehBackground/>
-    <Grid container spacing={2}>
+    <Grid container spacing={2} className="fadeIn" style={{ animationDelay: '0.5s' }} >
       <Hero />
       <About />
       <EducationSkills />

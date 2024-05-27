@@ -8,16 +8,16 @@ import EmailIcon from '@mui/icons-material/Email';
 const Footer = () => (
   <Grid item xs={12}>
     <Paper id="contact" sx={{ textAlign: 'center' }}>
-      <Typography variant="h6" sx={{ color: '#fff' }}>Contact Information</Typography>
+      <Typography variant="h4" sx={{ color: '#fff' }}>Contact Me!</Typography>
       <Box sx={{ marginTop: '1rem' }}>
         <Link href="https://www.linkedin.com/in/apar-mistry" target="_blank" sx={{ color: '#90caf9', marginRight: '1rem' }}>
-          <LinkedInIcon />
+          <LinkedInIcon sx={{ fontSize: '2rem' }} />  {/* Larger Icon */}
         </Link>
         <Link href="https://github.com/apar-mistry" target="_blank" sx={{ color: '#90caf9', marginRight: '1rem' }}>
-          <GitHubIcon />
+          <GitHubIcon sx={{ fontSize: '2rem' }} />  {/* Larger Icon */}
         </Link>
         <Link href="mailto:aparmistry0518@gmail.com" sx={{ color: '#90caf9' }}>
-          <EmailIcon />
+          <EmailIcon sx={{ fontSize: '2rem' }} />  {/* Larger Icon */}
         </Link>
       </Box>
     </Paper>
