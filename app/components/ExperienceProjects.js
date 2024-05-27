@@ -43,7 +43,7 @@ const ExperienceProjects = () => (
               borderRadius: "5px",
             }}
             alt="Options Trading Platform"
-            src="/call-put-options.jpg"
+            src="${process.env.REACT_APP_PUBLIC_URL}/call-put-options.jpg"
           />
         </Grid>
       </Grid>
@@ -71,7 +71,7 @@ const ExperienceProjects = () => (
               borderRadius: "5px",
             }}
             alt="Options Trading Platform"
-            src="/NewsNetwork-1920x10802-1.jpg"
+            src="${process.env.REACT_APP_PUBLIC_URL}/NewsNetwork-1920x10802-1.jpg"
           />
         </Grid>
       </Grid>
@@ -99,7 +99,7 @@ const ExperienceProjects = () => (
               borderRadius: "5px",
             }}
             alt="Options Trading Platform"
-            src="/7151925-c5870015fba3af28c71feb0d0b84433f-medium_jpg.jpg"
+            src="${process.env.REACT_APP_PUBLIC_URL}/7151925-c5870015fba3af28c71feb0d0b84433f-medium_jpg.jpg"
           />
         </Grid>
       </Grid>
