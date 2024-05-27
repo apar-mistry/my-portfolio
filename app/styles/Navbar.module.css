@@ -1,0 +1,49 @@
+/* .toolbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.title {
+  flex-grow: 1;
+}
+
+.navLinks a {
+  text-decoration: none;
+  color: inherit;
+} */
+
+
+.toolbar {
+  display: flex;
+  justify-content: center; /* Center the content horizontally */
+  align-items: center;
+}
+
+/* .navLinks{
+  display: flex;
+  gap: 15px; /* Adjust the gap between links */
+/* } */ 
+/* app/components/Navbar.module.css */
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: rgba(119, 141, 169, 0.7); /* Match card background color */
+  color: #E0E1DD; /* Text color */
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 10;
+}
+
+.navLink {
+  color: #E0E1DD;
+  margin: 0 15px;
+  text-decoration: none;
+}
+
+.navLink:hover {
+  text-decoration: underline;
+}

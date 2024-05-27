@@ -1,0 +1,27 @@
+.about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 20px;
+    background-color: #ffffff;
+  }
+  
+  .about.aos-animate {
+    opacity: 1; /* Visible when animated */
+  }
+  
+  .about h4 {
+    margin-bottom: 20px;
+    font-size: 2rem;
+  }
+  
+  .about p {
+    margin-bottom: 20px;
+    max-width: 600px;
+    text-align: center;
+  }
+  
+  .about button {
+    margin-top: 20px;
+  }
+  

@@ -1,0 +1,22 @@
+.experienceProjects {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 20px;
+    background-color: #ffffff;
+  }
+  .experienceProjects.aos-animate {
+    opacity: 1; /* Visible when animated */
+  }
+  
+  .experienceProjects h4 {
+    margin-bottom: 20px;
+    font-size: 2rem;
+  }
+  
+  .experienceProjects p {
+    margin-bottom: 20px;
+    max-width: 600px;
+    text-align: center;
+  }
+  

@@ -1,0 +1,13 @@
+/* styles/globals.css */
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  background-color: #1b263b;
+  color: #E0E1DD;
+}
+/* styles/globals.css */
+
+a {
+  text-decoration: none;
+  color: inherit;
+}

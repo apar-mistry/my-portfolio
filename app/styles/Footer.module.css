@@ -1,0 +1,23 @@
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: #333333;
+    color: #ffffff;
+    text-align: center;
+  }
+  
+  .footer.aos-animate {
+    opacity: 1; /* Visible when animated */
+  }
+  .footer a {
+    color: #ffffff;
+    text-decoration: none;
+    margin: 0 10px;
+  }
+  
+  .footer p {
+    margin: 5px 0;
+  }
+  

@@ -1,0 +1,22 @@
+.extracurriculars {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 20px;
+    background-color: #f0f0f0;
+  }
+  
+  .extracurriculars.aos-animate {
+    opacity: 1; /* Visible when animated */
+  }
+  .extracurriculars h4 {
+    margin-bottom: 20px;
+    font-size: 2rem;
+  }
+  
+  .extracurriculars p {
+    margin-bottom: 20px;
+    max-width: 600px;
+    text-align: center;
+  }
+  
