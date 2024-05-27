@@ -19,7 +19,7 @@ const Hero = () => {
       <Paper sx={{ padding: 2 }}>
         <Grid container alignItems="center" spacing={2}>
           <Grid item>
-            <Avatar sx={{ width: 100, height: 100 }} alt="Apar Mistry" src="${process.env.REACT_APP_PUBLIC_URL}/1602563417439-2.jpeg" />
+            <Avatar sx={{ width: 100, height: 100 }} alt="Apar Mistry" src="./1602563417439-2.jpeg" />
           </Grid>
           <Grid item>
             <Typography variant="h2" component="h1" sx={{ color: '#fff' }}>

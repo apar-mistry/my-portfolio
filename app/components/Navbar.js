@@ -7,7 +7,7 @@ const Navbar = () => (
   <AppBar position="static" sx={{  borderRadius: '10px', height: '60px', justifyContent: 'center' }}>
     <Toolbar sx={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
       <Typography variant="h6" sx={{ color: '#90caf9', display: 'flex', alignItems: 'center' }}>
-        <img src="${process.env.REACT_APP_PUBLIC_URL}/—Pngtree—computer science line icon vector_9034468.png" alt="Logo" style={{ height: '48px', marginRight: '10px', filter: 'invert(100%)'}} />
+        <img src="./—Pngtree—computer science line icon vector_9034468.png" alt="Logo" style={{ height: '48px', marginRight: '10px', filter: 'invert(100%)'}} />
       </Typography>
       <Box>
         <Button color="inherit" sx={{ color: '#E0E1DD', marginRight: '1rem' }}>
