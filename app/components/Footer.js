@@ -11,13 +11,13 @@ const Footer = () => (
       <Typography variant="h4" sx={{ color: '#fff' }}>Contact Me!</Typography>
       <Box sx={{ marginTop: '1rem' }}>
         <Link href="https://www.linkedin.com/in/apar-mistry" target="_blank" sx={{ color: '#90caf9', marginRight: '1rem' }}>
-          <LinkedInIcon sx={{ fontSize: '2rem' }} />  {/* Larger Icon */}
+          <LinkedInIcon sx={{ fontSize: '2rem' }} />  
         </Link>
         <Link href="https://github.com/apar-mistry" target="_blank" sx={{ color: '#90caf9', marginRight: '1rem' }}>
-          <GitHubIcon sx={{ fontSize: '2rem' }} />  {/* Larger Icon */}
+          <GitHubIcon sx={{ fontSize: '2rem' }} />  
         </Link>
         <Link href="mailto:aparmistry0518@gmail.com" sx={{ color: '#90caf9' }}>
-          <EmailIcon sx={{ fontSize: '2rem' }} />  {/* Larger Icon */}
+          <EmailIcon sx={{ fontSize: '2rem' }} />  
         </Link>
       </Box>
     </Paper>

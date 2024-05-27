@@ -5,7 +5,7 @@ import styles from './BokehBackground.module.css';
 const BokehBackground = () => {
   useEffect(() => {
     const bokehContainer = document.getElementById('bokeh-container');
-    for (let i = 0; i < 15; i++) { // Reduced number of balls
+    for (let i = 0; i < 15; i++) { 
       const bokehBall = document.createElement('div');
       bokehBall.className = styles.bokehBall;
       bokehBall.style.left = `${Math.random() * 100}%`;

@@ -16,7 +16,6 @@ const ExperienceProjects = () => (
       <Typography variant="h4" sx={{ color: "#fff", marginBottom: 2 }}>
         Experience
       </Typography>
-      {/* Example of an individual experience entry */}
       <Grid container spacing={2} sx={{ marginBottom: 2 }}>
         <Grid item xs={12} md={6}>
           <Typography variant="h5" sx={{ color: "#E0E1DD" }}>

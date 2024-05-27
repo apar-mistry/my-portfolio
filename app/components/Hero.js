@@ -1,8 +1,6 @@
 // components/Hero.js
 import React from 'react';
 import { Grid, Paper, Typography, Button, Box, Avatar } from '@mui/material';
-import LinkedInIcon from '@mui/icons-material/LinkedIn';
-import GitHubIcon from '@mui/icons-material/GitHub';
 import { useTypewriter, Cursor } from 'react-simple-typewriter';
 
 const Hero = () => {

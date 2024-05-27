@@ -1,8 +1,6 @@
 // app/page.js
 "use client"
 import React from 'react';
-import { ParallaxProvider } from 'react-scroll-parallax';
-import ParallaxHero from './components/ParallaxHero';
 import Hero from './components/Hero';
 import About from './components/About';
 import EducationSkills from './components/EducationSkills';

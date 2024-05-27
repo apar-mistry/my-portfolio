@@ -37,9 +37,9 @@ const About = () => {
           style={{ overflowX: "hidden", padding: "0 24px" }}
         >
           <Box sx={{ padding: 2 }}>
-            <ul style={{ listStyleType: "disc", paddingLeft: "20px" }}>  {/* Enable disc style for bullets */}
+            <ul style={{ listStyleType: "disc", paddingLeft: "20px" }}>  
               <li>
-                <Typography variant="body" sx={{ color: "#b0bec5" }}> {/* Adjusted variant from h7 to body1 */}
+                <Typography variant="body" sx={{ color: "#b0bec5" }}> 
                   22 Year old Computer Science student at UCR.
                 </Typography>
               </li>
@@ -62,7 +62,7 @@ const About = () => {
               display: "flex",
               justifyContent: "center",
               alignItems: "center",
-              height: '100%',  // Make sure the Box fills the available vertical space in the SwipeableView
+              height: '100%', 
             }}
           >
             <Typography
@@ -73,9 +73,9 @@ const About = () => {
             </Typography>
           </Box>
           <Box sx={{ padding: 3 }}>
-            <ul style={{ listStyleType: "disc", paddingLeft: "20px" }}>  {/* Enable disc style for bullets */}
+            <ul style={{ listStyleType: "disc", paddingLeft: "20px" }}>  
               <li>
-                <Typography variant="body" sx={{ color: "#b0bec5" }}> {/* Adjusted variant from h7 to body1 */}
+                <Typography variant="body" sx={{ color: "#b0bec5" }}> 
                   An avid snowboarder who loves to hit the slopes and chase the pow!!
                 </Typography>
               </li>

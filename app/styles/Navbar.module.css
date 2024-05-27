@@ -29,8 +29,8 @@
   position: fixed;
   top: 0;
   width: 100%;
-  background: rgba(119, 141, 169, 0.7) !important; /* Match card background color */
-  color: #E0E1DD; /* Text color */
+  background: rgba(119, 141, 169, 0.7) !important; 
+  color: #E0E1DD; 
   padding: 10px 20px;
   display: flex;
   justify-content: space-between;

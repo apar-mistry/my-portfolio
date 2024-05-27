@@ -14,7 +14,7 @@ const EducationSkills = () => {
     setTabIndex(index);
   };
 
-  // Example list of skills as images
+
   const itemData = [
     {
       img: `./Python-logo-notext.svg.png`,
@@ -28,7 +28,6 @@ const EducationSkills = () => {
       img: `./swift-96x96_2x.png`,
       title: "Node.js",
     },
-    // Add more items as needed
   ];
 
   const itemDataFrameworks = [
